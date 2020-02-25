@@ -1,4 +1,5 @@
-import pyttsx
+from gtts import gTTS
+import os
 
 class Audio:
 	
