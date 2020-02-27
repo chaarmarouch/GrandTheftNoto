@@ -9,7 +9,7 @@ cam = cv2.VideoCapture(0)
 cam.set(3, 640)		# image width
 cam.set(4, 480)		# image height
 cam.set(5, 15)		# frame rate
-cam.set(10, 70)		# brightness
+cam.set(10, 60)		# brightness
 
 face_id = input('\n enter user id end press <return> ==>  ')
 print("\n [INFO] Initializing face capture. Look the camera and wait ...")
