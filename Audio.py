@@ -10,7 +10,8 @@ def createNeg():
 	tts.save("0000.mp3") 
 
 def positive(userID):
-	os.system(userID + ".mp3")
+	path = userID + ".mp3"
+	os.system("play 'path'")
 	
 def negative():
-	os.system("0000.mp3")
+	os.system("play '0000.mp3'")
