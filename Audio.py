@@ -11,7 +11,8 @@ def createNeg():
 
 def positive(userID):
 	path = userID + '.mp3'
-	os.system("play 'userID + .mp3'")
+	cmd = "play " + path
+	os.system(cmd)
 	
 def negative():
 	os.system("play '0000.mp3'")
