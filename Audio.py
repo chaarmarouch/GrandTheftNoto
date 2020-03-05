@@ -1,13 +1,16 @@
 from gtts import gTTS
 import os
 
-class Audio:
+def enrollUser(userID):
+	tts = gTTS(text = 'Welcome ' + userID, lang='en')
+	tts.save(UserID + ".mp3")
+
+def createNeg():
+	tts = gTTS(text = 'Unauthorized User', lang='en')
+	tts.save("0000.mp3") 
+
+def positive(userID):
+	os.system(userID + ".mp3")
 	
-	def positive(userID):
-		engine = pyttsx.init()
-		saystring = 'Welcome ' + userID
-		engine.say(saystring)
-		
-	def negative():
-		engine = pyttsx.init()
-		engine.say('Unauthorized user')
+def negative():
+	os.system("0000.mp3")

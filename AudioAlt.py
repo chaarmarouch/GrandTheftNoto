@@ -1,5 +1,5 @@
 import pyttsx
-import oscmd
+import os
 
 class Audio:
 	
